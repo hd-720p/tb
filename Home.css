@@ -32,7 +32,7 @@
 
 .u-section-1 .u-metadata-1 {
   font-size: 0.875rem;
-  margin: 15px auto 0 0;
+  margin: 15px 0 0 auto;
 }
 
 .u-section-1 .u-repeater-item-2 {
@@ -50,7 +50,25 @@
 
 .u-section-1 .u-metadata-2 {
   font-size: 0.875rem;
-  margin: 15px auto 0 0;
+  margin: 15px 0 0 auto;
+}
+
+.u-section-1 .u-repeater-item-3 {
+  background-size: auto;
+  box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.15);
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 30px 20px;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 248px 0 0;
+}
+
+.u-section-1 .u-metadata-3 {
+  font-size: 0.875rem;
+  margin: 15px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -98,6 +116,11 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -116,6 +139,12 @@
   }
 
   .u-section-1 .u-container-layout-2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
