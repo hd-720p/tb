@@ -15,7 +15,6 @@
   grid-template-columns: calc(33.3333% - 17.3333px) calc(33.3333% - 17.3333px) calc(33.3333% - 17.3333px);
   grid-gap: 26px 26px;
   min-height: 701px;
-  grid-auto-columns: calc(33.3333% - 17.3333px);
 }
 
 .u-section-1 .u-repeater-item-1 {
@@ -33,12 +32,13 @@
 }
 
 .u-section-1 .u-text-2 {
+  background-image: none;
   margin: 64px 0 0;
 }
 
 .u-section-1 .u-metadata-1 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 19px 0 0 auto;
 }
 
 .u-section-1 .u-repeater-item-2 {
@@ -56,12 +56,13 @@
 }
 
 .u-section-1 .u-text-4 {
+  background-image: none;
   margin: 64px 0 0;
 }
 
 .u-section-1 .u-metadata-2 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 19px 0 0 auto;
 }
 
 .u-section-1 .u-repeater-item-3 {
@@ -79,12 +80,13 @@
 }
 
 .u-section-1 .u-text-6 {
+  background-image: none;
   margin: 64px 0 0;
 }
 
 .u-section-1 .u-metadata-3 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 19px 0 0 auto;
 }
 
 .u-section-1 .u-repeater-item-4 {
@@ -102,36 +104,30 @@
 }
 
 .u-section-1 .u-text-8 {
+  background-image: none;
   margin: 64px 0 0;
 }
 
 .u-section-1 .u-metadata-4 {
   font-size: 0.875rem;
-  margin: 20px 0 0 auto;
+  margin: 19px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-blog-1 {
     height: auto;
   }
-
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(33.333333333333336% - 17.3333px);
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 17.3333px));
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-repeater-1 {
-    min-height: 1371px;
-    grid-auto-columns: calc(50% - 12.999975000000001px);
-    grid-template-columns: repeat(2, calc(50% - 12.999975000000001px));
+    min-height: 816px;
+    grid-template-columns: calc(50% - 13px) calc(50% - 13px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 
@@ -157,10 +153,6 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-repeater-1 {
-    grid-auto-columns: 100%;
-  }
-
   .u-section-1 .u-text-1 {
     font-size: 1.5;
   }
