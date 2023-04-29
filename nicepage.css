@@ -41334,28 +41334,22 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 134px;
 }
 
-.u-header .u-menu-1 {
-  margin: 18px auto;
+.u-header .u-text-1 {
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.875rem;
 }
 
-.u-header .u-nav-1 {
-  font-size: 1rem;
-  letter-spacing: normal;
-}
 
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-}
-@media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
+@media (max-width: 767px) {
+  .u-header .u-text-1 {
+    font-size: 1rem;
   }
 }
-
-
 
  .u-footer {
   background-image: none;
