@@ -41334,23 +41334,25 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 134px;
+  min-height: 82px;
 }
 
 .u-header .u-text-1 {
   margin-bottom: 60px;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 1.875rem;
+  font-size: 3rem;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 
-@media (max-width: 767px) {
+
+@media (max-width: 575px) {
   .u-header .u-text-1 {
-    font-size: 1rem;
+    margin-right: 32px;
+    margin-left: 32px;
+    width: auto;
   }
 }
-
  .u-footer {
   background-image: none;
   min-height: 107px;
