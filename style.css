@@ -14,7 +14,7 @@
 #second {
     position: absolute;
     background: black;
-    border-radius: 10px;
+    border-radius: 1px;
     transform-origin: bottom;
 }
   
