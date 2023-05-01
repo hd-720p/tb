@@ -192,3 +192,18 @@ ul.main-menu li a.active {
 #myUL p a:hover:not(.header) {
   background-color: #eee;
 }
+/* Style buttons */
+.dl {
+  background-color: Gold;
+  border: none;
+  color: DarkSlateGray;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+/* Darker background on mouse-over */
+.dl:hover {
+  background-color: GoldenRod;
+}
