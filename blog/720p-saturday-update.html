@@ -12,6 +12,22 @@
     font-family: Orbitron;
     letter-spacing: 3px;
 }
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
 </style>
 
     <!-- Page setup -->
@@ -44,7 +60,7 @@
 <body>
 
 <div class="topnav">
-  <a class="active" href="../Home.html">Home</a>
+<button class="btn"><i class="fa fa-home"></i> Home</button>
 </div>
     <header id="header">
 <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
