@@ -389,7 +389,7 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: calc(50% - 11px) calc(50% - 11px);
-    min-height: 2009px;
+    min-height: 1755px;
   }
 }
 
